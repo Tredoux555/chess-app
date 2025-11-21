@@ -1,0 +1,24 @@
+DEPLOYMENT CHECKLIST
+====================
+
+□ Install Git from https://git-scm.com/download/win
+□ Create GitHub account at https://github.com
+□ Create new repository on GitHub (make it Public)
+□ Generate GitHub Personal Access Token (Settings → Developer settings → Personal access tokens)
+□ Push code to GitHub using git commands
+□ Sign up for Railway at https://railway.app (use GitHub login)
+□ Create new project on Railway
+□ Connect GitHub repository
+□ Add environment variables:
+  □ MONGODB_URI
+  □ NODE_ENV=production
+  □ NEXTAUTH_SECRET (generate with PowerShell command)
+  □ NEXTAUTH_URL (get from Railway after deployment)
+  □ NEXT_PUBLIC_SOCKET_URL (same as NEXTAUTH_URL)
+□ Update MongoDB Atlas Network Access (allow 0.0.0.0/0)
+□ Wait for deployment to complete
+□ Test your live website!
+
+Your MongoDB connection string:
+mongodb+srv://admin:Angel12345@cluster0.klgvkxy.mongodb.net/chess-app?appName=Cluster0
+
