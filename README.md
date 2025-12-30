@@ -173,3 +173,4 @@ For platforms that support Node.js servers, deploy both the Next.js app and the 
 ## License
 
 MIT
+# Secret Store Added
